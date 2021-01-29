@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*SOCIAL SHARE*/
+.social_share {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 30px;
+    background: #FBFBFB;
+    -webkit-border-radius: var(--radius-medium);
+    -moz-border-radius: var(--radius-medium);
+    border-radius: var(--radius-medium);
+    border-bottom: 3px solid var(--color-green);
+}
+
+.social_share_title {
+    font-size: var(--font-normal);
+    font-weight: var(--weight-normal);
+}
+
+.social_share_medias {
+    display: flex;
+}
+
+.social_share_medias div {
+    margin-right: 10px;
+}
+

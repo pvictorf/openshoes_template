@@ -1,0 +1,201 @@
+.header {
+    display: block;
+    width: 100%;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--max-width);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.header_nav .brand-logo {
+    color: var(--color-default);
+    font-size: var(--font-extra-large);
+}
+
+.header_menu_desktop {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.header_menu_desktop > li > a {
+    margin: 0 30px;
+    font-size: var(--font-normal);
+    font-weight: var(--weight-normal);
+    color: var(--color-grey);
+    transition: 0.4s color;
+}
+
+.header_menu_desktop > li > a:hover {
+    color: var(--color-default);
+}
+
+.app_modal_search {
+    border: 3px solid black;
+}
+
+.app_modal_search {
+    border: 3px solid black;
+}
+
+.app_modal_search .search_field input#search {
+    width: calc(100% - 40px);
+    outline: none;
+    border: none;
+    padding: 12px;
+    color: var(--color-default);
+    font-size: var(--font-medium);
+}
+
+.app_modal_search .search_field input#search::placeholder {
+    color: var(--color-grey);
+    font-size: var(--font-medium);
+}
+
+.app_modal_search .search_field i {
+    color: var(--color-default);
+    font-size: var(--font-extra-large);
+}
+
+.app_modal_search .search_suggetions::before {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 1px;
+    background: #efefef;
+    margin: 4px auto;
+}
+
+.app_modal_search .search_suggetions {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.app_modal_search .search_suggetions .item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    margin: 2px 0;
+}
+
+.app_modal_search .search_suggetions .item:hover {
+    border-bottom: 1px solid #efefef;
+}
+
+.app_modal_search .search_suggetions .item_image {
+    width: 5.6rem;
+    height: 5.6rem;
+    object-fit: contain;
+}
+
+.app_modal_search .search_suggetions div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    width: calc(100% - 5.6rem);
+}
+
+.app_modal_search .search_suggetions .item_title {
+    width: 100%;
+}
+
+.app_modal_search .search_suggetions .item_price {
+    margin: 8px 8px 0 0;
+    color: #5e01c3;
+}
+
+.app_modal_search .search_suggetions .item_off {
+    margin-top: 8px;
+    background: black;
+    color: #fff;
+    font-style: italic;
+    font-size: var(--font-small);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 4px; 
+}
+
+.main_cta {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+
+.main_cta_content {
+    display: flex;
+    align-items: center;
+    max-width: var(--max-width);
+    padding: 60px 20px 20px 20px;
+    margin: 0 auto;
+}
+
+.main_cta_content h1 {
+    color: var(--color-default);
+    font-size: var(--font-extra-big);
+    max-width: 400px;
+    margin-right: 30px;
+}
+
+.main_cta_carrousel {
+    display: flex;
+    flex: 1;
+}
+
+.main_cta_carrousel > img {
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.main_cta_categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.main_cta_question::before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 6px;
+    background: var(--color-default);
+    margin: 20px auto;
+}
+
+.main_cta_question {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    color: var(--color-default);
+    margin-bottom: 25px;
+}
+
+.main_cta_categories article {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main_cta_categories h3 {
+    cursor: pointer;
+    color: var(--color-grey);
+    transition: 0.4s color;
+}
+
+.main_cta_categories h3:hover {
+    color: var(--color-default);
+}
